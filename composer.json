@@ -1,0 +1,32 @@
+{
+    "name": "hdvinnie/eloquent-url-presenters",
+    "description": "An easy way to create url presenters for your eloquent models.",
+    "keywords": ["laravel", "lumen", "eloquent-url-processor", "url", "presenter"],
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^7.4.0",
+        "illuminate/config": "~5.0",
+        "illuminate/support": "^5.5|^6|^7"
+    },
+    "authors": [
+        {
+            "name": "Anitche Chisom",
+            "email": "anitchec.dev@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "AcDevelopers\\EloquentUrlPresenter\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AcDevelopers\\EloquentUrlPresenter\\LaravelLumen\\EloquentUrlPresenterServiceProvider"
+            ]
+        }
+    }
+}
